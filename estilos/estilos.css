@@ -51,7 +51,8 @@ main img {
     height: auto;
     border: #fff;
     padding: 1rem;
-    box-shadow: #333;
+    box-shadow: 0 0 30px gray;
+
 }
 
 footer {
