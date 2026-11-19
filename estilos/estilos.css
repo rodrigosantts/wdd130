@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -31,14 +37,17 @@ main {
 }
 
 aside {
+    position: relative;
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
+}
+
+aside h2 {
+    position: absolute;
+    top: 35px;
+    left: 125px;
+    color: white;
+
 }
 
 aside img {
@@ -47,10 +56,11 @@ aside img {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
-    border: #fff;
-    padding: 1rem;
+    border: 1px solid black;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 
 }
@@ -59,4 +69,14 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Seletores de Classe */
+.caixa {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    /* r=red g=green b=blue (0=red 0=green 0=blue / 0.2= grau de transparencia de 0 a 1*/
+    background-color: #eee;
+    color: #000;
 }
