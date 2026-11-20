@@ -29,7 +29,7 @@ img {
 }
 
 p {
-    padding: 0px;
+    padding: 30px;
 }
 
 main {
@@ -61,7 +61,6 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-
 }
 
 footer {
@@ -78,4 +77,5 @@ footer {
     /* r=red g=green b=blue (0=red 0=green 0=blue / 0.2= grau de transparencia de 0 a 1*/
     background-color: #eee;
     color: #000;
+    clear: both;
 }
