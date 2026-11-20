@@ -1,3 +1,9 @@
+:root {
+    --cor-do-texto: white;
+    --cor-de-fundo-elemento-nav: darkblue;
+    --cor-da-borda: black;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,12 +11,13 @@
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--cor-de-fundo-elemento-nav);
     padding: 10px;
 }
 
 nav a {
-    color: white;
+    /* color: white; */
+    color: var(--cor-do-texto);
     display: block;
     padding: 20px;
 }
@@ -22,7 +29,7 @@ h1 {
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--cor-da-borda);
     margin: 1rem;
     padding: 2px;
     box-shadow: 0 0 30px gray;
@@ -46,7 +53,8 @@ aside h2 {
     position: absolute;
     top: 35px;
     left: 127px;
-    color: white;
+    /* color: white; */
+    color: var(--cor-do-texto);
 }
 
 aside img {
@@ -58,14 +66,14 @@ main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--cor-da-borda);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--cor-da-borda);
     text-align: center;
 }
 
